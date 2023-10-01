@@ -1,7 +1,6 @@
 import random
 import math
 
-import a
 
 
 def test_greeting():
@@ -11,7 +10,7 @@ def test_greeting():
     name = "Анна"
     age = 25
     output = f"Привет, {name}! Тебе {age} лет."
-    print("Привет, Анна! Тебе 25 лет.")
+    print(output)
     # Проверяем результат
     assert output == "Привет, Анна! Тебе 25 лет."
 
