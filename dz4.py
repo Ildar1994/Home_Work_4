@@ -1,9 +1,6 @@
 import random
 import math
 
-import a
-
-
 def test_greeting():
     """
     Напишите программу, которая выводит на экран приветствие.
@@ -11,6 +8,7 @@ def test_greeting():
     name = "Анна"
     age = 25
     output = "Привет, Анна! Тебе 25 лет."
+    print("Привет, Анна! Тебе 25 лет.")
     # Проверяем результат
     assert output == "Привет, Анна! Тебе 25 лет."
 
@@ -82,6 +80,6 @@ def test_dicts():
     second = [1, 2, 3, 4, 5]
     # TODO создайте словарь
     d = dict(zip(first, second))
-
+    print(d.values())
     assert isinstance(d, dict)
     assert len(d) == 5
